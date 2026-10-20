@@ -1,0 +1,10 @@
+{
+  "appId": "app.ieltstracker.student",
+  "appName": "IELTS Tracker",
+  "webDir": "dist",
+  "android": {
+    "adjustMarginsForEdgeToEdge": "force",
+    "allowMixedContent": false
+  },
+  "server": { "androidScheme": "https" }
+}

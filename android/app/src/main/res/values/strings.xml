@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">IELTS Tracker</string>
+    <string name="title_activity_main">IELTS Tracker</string>
+    <string name="package_name">app.ieltstracker.student</string>
+    <string name="custom_url_scheme">app.ieltstracker.student</string>
+</resources>
