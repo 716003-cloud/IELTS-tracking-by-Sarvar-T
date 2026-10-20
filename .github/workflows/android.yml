@@ -18,10 +18,16 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
+      
       - run: npx cap sync android
+
+      - name: Fix Gradle permissions
+        run: chmod +x android/gradlew
+
       - name: Debug APK
         working-directory: android
         run: ./gradlew assembleDebug --no-daemon
+
       - name: Release APK (signed only if keystore secrets exist)
         working-directory: android
         env:
